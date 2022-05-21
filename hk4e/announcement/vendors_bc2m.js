@@ -16748,7 +16748,7 @@
 									, s = e.game_biz
 									, u = "preview" === n || i
 									, c = "";
-								return a && s ? (c = "https://localhost/common/hk4e_global/announcement/api/getAnnList",
+								return true ? (c = "https://webstatic-sea.hoyoverse.com/common/hk4e_global/announcement/api/getAnnList",
 									new Promise((function (t, n) {
 										o.default.ajax({
 											url: c,
@@ -16818,7 +16818,7 @@
 									, v = void 0 === y ? "" : y
 									, m = "preview" === n || s
 									, g = "";
-								return u ? (g = "https://localhost/common/hk4e_global/announcement/api/getAnnContent",
+								return u ? (g = "https://webstatic-sea.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent",
 									new Promise((function (t, e) {
 										var n = {
 											game: u,
@@ -17108,7 +17108,7 @@
 									, n = e.platform
 									, r = t.audioList
 									, o = t.apiBase
-									, i = "https://localhost/hk4e/announcement/audio/";
+									, i = "https://webstatic-sea.hoyoverse.com/hk4e/announcement/audio/";
 								return r ? new Promise((function (t) {
 									var e = r.length
 										, n = new Array(e);

@@ -364,8 +364,8 @@
     var n = window.location.host.match(/.[0-9a-zA-Z]{1,20}.com/i);
     t.environment = "production",
       t.game_biz = "hk4e_global",
-      t.apiBase = "https://hk4e-api-os.hoyoverse.com/common/",
-      t.cdnBase = "https://hk4e-api-os-static.hoyoverse.com/common/",
+      t.apiBase = "https://webstatic-sea.hoyoverse.com/common/",
+      t.cdnBase = "https://webstatic-sea.hoyoverse.com/common/",
       t.webBase = "/announcement/audio/"
   },
   186: function (e, t, r) {
